@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <title> Accueil </title>
+            <link rel="stylesheet" href="Accueil.css">
+<style>
+    *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url('test.jpg');
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height: 480px;
+    margin-top: -20px;
+}
+.table1{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    padding-top: 21px;
+    float:right;
+   
+
+}
+.menu{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+    height:70px;
+    width: 100%;
+    position:fixed;
+    top:0;
+}
+
+.image1{
+    margin-left: 60px;
+    margin-right: 80px; 
+    padding-top: 10px;
+    float: left;
+    
+
+}
+td a{
+    color: #fff;
+}
+
+td{
+    padding-right: 30px;
+}
+
+.btnInscription{
+    color:white;
+    background-color: #008AFF;
+    border-radius: 20px;
+    height:40px;
+    width: 160px;
+    border: none;
+    box-shadow: 0px 0px 35px -6px rgb(104, 168, 221);
+}
+
+.Class1{
+    color: white;
+    font-size: 40px;
+    padding-top:170px;
+    margin-left: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Class2{
+    color: white;
+    font-size: 20px;
+    margin-top: 34px;
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btnInscription2{
+    float: left;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 69px;
+    color:white;
+    border-radius: 30px;
+    height:50px;
+    width: 170px;
+    border-color: white;
+    background: none;
+    box-shadow: 0px 0px 35px -6px rgb(104, 168, 221);
+}
+
+.Ecole{
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 9px;
+    color:white;
+    border-radius: 30px;
+    height:50px;
+    width: 260px;
+    border : none;
+    background-color: #008AFF;
+    box-shadow: 0px 0px 35px -6px rgb(104, 168, 221);
+}
+
+.icon2{
+    z-index: 1;
+    padding-top:30px;
+    margin-left: -240px;
+}
+
+.titre1{
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: Montserrat;
+    text-align: center;
+
+}
+
+pre{
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: lighter;
+    font-weight: 100;
+}
+
+.icons{
+    margin-left: 300px;
+    margin-top: 30px;
+
+}
+
+.icon{
+    margin-right: 330px;
+}
+
+
+h4{
+font-size: 24px;
+letter-spacing: 0.08em;
+color: rgb(92, 91, 91);
+margin-bottom: 30px;
+}
+
+.parag{
+    display:flex;
+    text-align:center;
+ 
+}
+
+.parag1{
+    margin-top:30px;
+    margin-left:60px;
+    margin-bottom: 30px;   
+    width: 350px;
+    line-height: 25px;
+}
+
+.parag2{
+    margin-top:30px;
+    margin-left:150px;
+    margin-bottom: 30px;
+    width: 350px;
+    line-height: 25px;
+}
+
+.parag3{
+    margin-top:30px; 
+    margin-bottom: 30px;
+    margin-left: 200px;
+    width: 350px;
+    line-height: 25px;
+}
+
+.imageleft{
+    margin-top:70px;
+    float:left;
+}
+
+.paragright{
+    margin-top:70px;
+    width:613px;
+     height:500px;
+     float: right;
+     background-color: #008AFF;
+}
+
+.titre1{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-family:Montserrat;
+}
+
+.titre2{
+    margin-top:30px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family:Montserrat;
+}
+
+.parag4{
+    margin-left:40px;
+    margin-right:80px;
+    margin-top:30px;
+    color: white;
+    font-size: 15px;
+    font-family:Montserrat;
+    line-height: 28px;
+}
+
+
+
+.simp{
+    color: white;
+    font-size: 50px;
+    margin-left: -45px;
+}
+
+
+.blue{
+    background-color:#008AFF;
+    height: 200px;
+    width:100%;
+    margin-top: -4px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+.paragTab{
+    margin-top:30px;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.lastparag{
+    font-size: 15px;
+    margin-left:70px;
+    font-family: montserrat;
+    margin-top:100px;
+    letter-spacing: 0.08em;
+    line-height: 40px;
+    margin-right: 70px;
+}
+
+.ocp{
+    margin-top: 200px;
+    font-size: 40px;
+    text-align:center;
+    font-family: montserrat;
+}
+
+.imOcp{
+    text-align: center;
+    margin-top: 10px;
+}
+.table3{
+    width:100%;
+     text-align:center;
+      margin-top:90px;
+}
+
+.btnInscription3{
+    color:white;
+    background-color: #008AFF;
+    border-radius: 20px;
+    height:40px;
+    width: 400px;
+    border: none;
+    box-shadow: 0px 0px 35px -6px rgb(104, 168, 221);
+    margin-right: -140px;
+
+}
+
+.insc{
+    text-align: center;
+    font-family: montserrat;
+    font-size: 30px;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    margin-top:60px;
+  
+}
+
+.table4{
+    color: #666666;
+    text-align: right;
+    width: 100%; 
+    font-family: montserrat;
+    letter-spacing: 0.08em;
+}
+
+.last{
+    float:right;
+}
+
+.copy{
+    margin-right: -50px;
+}
+.supp{
+    color:rgb(41, 122, 230);
+}
+
+.contact{
+    float:left;
+}
+.zet{
+    margin-left: 800px;
+}
+#az{
+    margin-left: 160px;
+}
+#ae{
+    margin-left: 190px;
+}
+#ar{
+    margin-left: 220px;
+}
+</style>
+    </head>
+    <body>
+            <div class="header"> 
+                <div class="menu">
+                    <img class="image1" src="white.png" alt="logo" width="180px" height="45px">
+                    <table class="table1">
+                       <td> <a href="Accueil.html"> Accueil </a></td>
+                        <td> <td> <a href="capus.html">Campus SAFI </a></td>
+                        <td> <a href="https://youcode.ma/pedagogie">Principes pédagogiques</a> </td>
+                        <td><a href="form.html"> Formateur</a></td>
+                        <td><a href="#"> Où nous trouver?</a></td>
+                        <td> <a href="#"> Langue</a>
+                            <img src="icone.png" alt="icon" height="6px" width="10px">
+                        </td>
+                        <td>
+                            <input type="Button" class="btnInscription" value="INSCRIS-TOI">
+                        </td>
+                    </table>
+                </div>
+            
+
+                <div class="Class1">
+                    Une école 100% gratuite
+                </div>
+
+                <div class="Class2">
+                    UNE FORMATION GRATUITE & PROFESSIONNELLE
+                </div>
+
+                <div>
+                        <input type="Button" class="btnInscription2" value="INSCRIS-TOI">
+                </div>
+
+                <div>
+                        <input type="Button" class="Ecole" value="DECOUVRE L'ECOLE">
+                        <img src="icon.png" alt="icon" height="17px" width="17px" class="icon2" >
+                </div>
+             </div>
+
+
+             
+                <div class="titre1">
+                    L'école YouCode 
+                </div>
+                <br><br>
+            <pre>
+    Le numérique et les nouvelles technologies sont partout autour de nous, mais leur code et leur langage ne sont pas toujours naturels et innés 
+    pour tous. La fracture entre ceux qui parlent le « numérique » et le manipulent avec aisance et les autres est souvent très grande. C’est pourquoi 
+    YouCode veut mettre le code entre toutes les mains pour réduire les inégalités numériques et donner sa chance à tout un chacun.
+            </pre>
+
+            <div class="">         
+                    <img id="az"  src="iCone.png" alt="icon" height="40px" width="50px" class="icon" >
+                    <img id="ae" src="icon2.png" alt="icon" height="40px" width="30px" class="icon" >
+                    <img id="ar" src="icon3.png" alt="icon" height="40px" width="50px" >
+            </div>
+
+            
+            <div class="parag">
+            <div class="parag1">
+          
+                <h4>  Apprendre sans barrières</h4> 
+          
+                 <p>  Car peu importe votre niveau d’études, votre
+                    sexe ou encore votre pouvoir d’achat,chacun(e ) est le/la bienvenu(e) à YouCode. 
+                    Aucun diplôme n’est requis.Nous valorisons la passion pour la technologie et l’envie d'apprentissage.</p> 
+            </div>
+
+           
+            <div class="parag2"> <h4> Une méthodologie innovante</h4> 
+                  <p>  100% pratique et axée sur les technologies les plus demandées du marché, 
+                    YouCode utilise un programme d'apprentissage basé sur les projets, 
+                    utilisant la technologie et la recherche pour relier les concepts à la réalité du marché du travail.</p>
+            </div>
+
+            
+            <div class="parag3"><h4>  Gratuite & intensive</h4> 
+                   <p>A YouCode la formation est entièrement gratuite. Dotés d’ordinateurs à la pointe de la technologie, 
+                    vous apprendrez comme si vous étiez en entreprise, du lundi au vendredi de 09h00 à 17H00.</p> 
+            </div>
+        </div>
+
+
+        <div>
+            <img src="test1.png" width="905px" height="500px" class="imageleft">
+        </div>
+        <div class="paragright">
+            <div class="titre1"> C'est quoi YouCode ?</div>
+            <div class="titre2"> "Une école à la pointe de la modernité"</div>
+            <p class="parag4"> YouCode… Ce n’est pas un simple nom. C’est toute une philosophie. YouCode est une école inclusive qui ouvre les chances à tous. 
+                You… comme… toi. YouCode place l’individu au centre de sa pédagogie en même temps qu’elle l’aide à développer une synergie 
+                de travail avec les autres . Code… comme code. Du site web aux algorithmes en passant par les applis. Située dans des villes comme 
+                Youssoufia ou Safi, un endroit idéal pour y étudier le code, loin de l’effervescence des grandes villes.</p>
+        </div>
+
+
+        
+<div class="tea">
+        <img style="margin-top: 120px;" src="tast.png" width="1518px"></div>
+        <div class="blue">
+            <table width="100%">
+                    <tr>
+                    <td> <h2>2222</h2>
+                        <p class="paragTab">Simploniens dans le monde</p> 
+                    </td>
+                    <td>
+                            <h2>86%</h2> 
+                             <p class="paragTab"> De sorties positives aprés 6 mois formation</p>
+                     </td>
+                     <td>
+                            <h2>52</h2> 
+                             <p class="paragTab"> Fabriques ouverts en france et à l'international </p>
+                    </td>
+                     </tr>
+            </table>
+        </div>
+        <div class="lastparag">
+               <b> SIMPLON.co </b>est un réseau de fabriques numériques et inclusives en France et à l’étranger. L’école a formé plus de 2000 aux métiers du numérique depuis 2013.
+
+                SIMPLON.co une entreprise sociale et solidaire qui veut faire du numérique un véritable levier d’inclusion et révéler des talents parmi des publics peu représentés dans le secteur.
+                
+                Simplon conseille les entreprises dans leur transformation digitale et parfois réalise leurs sites et leurs applications.
+        </div>
+
+        <div class="ocp">
+            Créé et sponsorisé par
+
+        </div>
+
+        <div class="imOcp">
+            <img src="ocp.png" alt="ocp" width="80px" height="110px">
+        </div>
+
+
+        <table class="table3">
+            <tr>
+            <td class="insc"> Inscris-toi dès maintenent </td>
+            <td>
+                    <input type="Button" class="btnInscription3" value="INSCRIS-TOI" height="50px" width="700px">
+            </td>
+            </tr>
+        </table>
+
+
+        <div class="footer"> 
+                    <table class="table4">
+                        <td class="contact">
+                                 <div> Contactez-nous sur:</div>
+                                        <div class="supp">support@Youcode.ma</div> 
+                        </td>
+                        <td class="copy">
+                                YouCode © 2019
+                        </td>
+                        <td class="last">
+                               <div> Suivez-nous sur les réseaux sociaux</div>
+                               <div> <img src="qs.png" alt="sm" height="30px" width="150px"> </div>
+                        </td>
+                    </table>
+                </div>
+            
+  </body>
+</html>
+
+
+
+
+
+
+     
